@@ -39,21 +39,13 @@ public class SumadorTest {
     /**
      * Test of sumar method, of class Sumador.
      */
-  
- 
-
- 
-       @Test
-    public void testGetNum1() {
+    @Test
+    public void testSumar() {
         Sumador sumador = new Sumador(5, 10);
-        int num1 = sumador.getNum1();
-        assertEquals(5, num1);
+        int resultat = sumador.sumar();
+        assertEquals(15, resultat);
     }
-
-   
-    }
-
 
 
     
-
+}
