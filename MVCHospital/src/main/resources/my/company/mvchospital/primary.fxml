@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="my.company.mvchospital.MedicoController">
+    <TableView fx:id="medicoTable" AnchorPane.topAnchor="50" AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10" AnchorPane.bottomAnchor="10">
+        <columns>
+            <TableColumn fx:id="codigoColumn" prefWidth="75" text="Código"/>
+            <TableColumn fx:id="nombreColumn" prefWidth="100" text="Nombre"/>
+            <TableColumn fx:id="apellidosColumn" prefWidth="100" text="Apellidos"/>
+            <TableColumn fx:id="especialidadColumn" prefWidth="100" text="Especialidad"/>
+            <TableColumn fx:id="numeroColegiadoColumn" prefWidth="75" text="Número de Colegiado"/>
+            <TableColumn fx:id="cargoColumn" prefWidth="100" text="Cargo"/>
+            <TableColumn fx:id="observacionesColumn" prefWidth="150" text="Observaciones"/>
+        </columns>
+    </TableView>
+</AnchorPane>

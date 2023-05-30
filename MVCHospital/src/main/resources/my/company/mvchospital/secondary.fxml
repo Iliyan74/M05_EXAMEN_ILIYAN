@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="my.company.mvchospital.InserirMedicoController">
+<Label text="Insertar nuevo médico" />
+    <Label text="Código de Identificación:" />
+    <TextField fx:id="codigoIdentifiacionField" />
+    <Label text="Nombre:" />
+    <TextField fx:id="nombreField" />
+    <Label text="Apellidos:" />
+    <TextField fx:id="apellidosField" />
+    <Label text="Especialidad:" />
+    <TextField fx:id="especialidadField" />
+    <Label text="Número de Colegiado:" />
+    <TextField fx:id="numeroColegiadoField" />
+    <Label text="Cargo:" />
+    <TextField fx:id="cargoField" />
+    <Label text="Observaciones:" />
+    <TextField fx:id="observacionesField" />
+    <Button fx:id="guardarButton" text="Guardar" onAction="#inserirMediconuevo" />
+</VBox>
